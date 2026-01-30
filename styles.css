@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00FF00; 
+  overflow: hidden; 
+}
+
+#photo {
+  width: 500px;
+  cursor: pointer;
+  user-select: none;
+  image-rendering: crisp-edges; 
+  transition: 0.1s ease; 
+}
+
+#photo:hover {
+  transform: scale(1.05);
+}
+
+#photo:active {
+  transform: scale(0.95);
+}

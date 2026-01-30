@@ -1,0 +1,9 @@
+# Editor settings
+.vscode/
+
+# Claude Code CLI settings
+.claude/
+
+# OS generated files
+.DS_Store
+Thumbs.db
